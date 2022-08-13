@@ -124,8 +124,8 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
-			//Shoot();
-			Zoom();
+            Shoot();
+            Zoom();
 		}
 
 		private void LateUpdate()
@@ -171,16 +171,16 @@ namespace StarterAssets
 			}
         }
 
-		//private void Shoot()
-		//{
-		//	if(_input.shoot)
-  //          {
-		//		StartCoroutine(_weapon.Shoot());
-		//		_input.shoot = false;
-  //          }
-  //      }
+        private void Shoot()
+        {
+            if (_input.shoot)
+            {
+                StartCoroutine(_weapon.Shoot());
+                _input.shoot = false;
+            }
+        }
 
-		private void Move()
+        private void Move()
 		{
 			// set target speed based on move speed, sprint speed and if sprint is pressed
 			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;

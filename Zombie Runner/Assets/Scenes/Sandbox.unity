@@ -1513,6 +1513,14 @@ PrefabInstance:
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1284623949559748548, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 1231200047}
+    - target: {fileID: 1284623949559748548, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: canShoot
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1284623949559748548, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: timeBetweenShots
       value: 1.5
       objectReference: {fileID: 0}
@@ -1641,6 +1649,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 399409650}
     - target: {fileID: 3132773178144807000, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 1231200047}
+    - target: {fileID: 3132773178144807000, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: canShoot
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3132773178144807000, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: timeBetweenShots
       value: 0.2
       objectReference: {fileID: 0}
@@ -1667,6 +1683,14 @@ PrefabInstance:
     - target: {fileID: 5360567371901426076, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: damage
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360567371901426076, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 1231200047}
+    - target: {fileID: 5360567371901426076, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: canShoot
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5360567371901426076, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: timeBetweenShots
@@ -1863,10 +1887,6 @@ PrefabInstance:
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: ammoAmount
-      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
@@ -3153,6 +3173,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
   m_PrefabInstance: {fileID: 701947036}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1231200047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3050776238600393203, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+  m_PrefabInstance: {fileID: 701947036}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9eb4826cf3516548b337d93ee884e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1242838589
 PrefabInstance:
   m_ObjectHideFlags: 0
