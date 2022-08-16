@@ -166,8 +166,15 @@ namespace StarterAssets
         {
 			if(_input.zoom)
             {
-				_weaponZoom.ZoomCamera();
-				_input.zoom = false;
+				if (_weaponSwitcher.currentWeapon == 0)
+				{
+					_weaponZoom.ZoomCamera();
+					_input.zoom = false;
+				}
+				else
+                {
+					return;
+                }
 			}
         }
 
