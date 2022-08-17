@@ -126,6 +126,7 @@ namespace StarterAssets
 			Move();
             Shoot();
             Zoom();
+			_weapon = FindObjectOfType<Weapon>();
 		}
 
 		private void LateUpdate()
